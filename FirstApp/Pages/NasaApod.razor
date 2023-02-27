@@ -1,0 +1,37 @@
+@page "/nasa-apod"
+
+@using FirstApp.Models;
+@using FirstApp.Clients;
+@using FirstApp.Shared.Components;
+@inject NasaClient NasaClient;
+
+
+<PageTitle>
+    Nasa APOD
+</PageTitle>
+
+<input placeholder="Enter Date (format: YYYY-MM-DD)" @bind="@inputDate" />
+<button @onclick="OnParametersSetAsync">Submit</button>
+
+<Header title="@nasaResponse.title" subTitle="@nasaResponse.date" description="@nasaResponse.explanation"/>
+<br>
+<NasaImageSection imgUrl="@nasaResponse.url" hdUrl="@nasaResponse.hdurl" copyright="@nasaResponse.copyright"/>
+
+
+@code {
+    private NasaResponse? nasaResponse=null;
+    private string? inputDate=null;
+    
+    protected override async Task OnInitializedAsync(){
+        nasaResponse = await NasaClient.GetNasa(null); 
+    }
+
+    protected override async Task OnParametersSetAsync() {
+        nasaResponse=await NasaClient.GetNasa(inputDate);
+    }
+        
+    }
+
+
+
+

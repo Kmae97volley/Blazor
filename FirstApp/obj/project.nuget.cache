@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CJ8vSpje3Xe1odiGT5GhBkj652LsMG/CUuLftAKg7VT1MQ9o6JP7I+aMfM90dKyPlado3jTSOsZl7dunhUNYwQ==",
+  "dgSpecHash": "kuXaAyRTDJcV99SRQuZ9t08eaIAoRrhMDCXSeHFUwKOmyFNQGQ3iU9mDyI3UnLXvQ6wcuGa7i6X7qyavOHorYg==",
   "success": true,
   "projectFilePath": "/Users/kae/Documents/GitHub/FirstApp/Blazor/FirstApp/FirstApp.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "/Users/kae/.nuget/packages/microsoft.extensions.fileproviders.abstractions/7.0.0/microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
     "/Users/kae/.nuget/packages/microsoft.extensions.fileproviders.physical/7.0.0/microsoft.extensions.fileproviders.physical.7.0.0.nupkg.sha512",
     "/Users/kae/.nuget/packages/microsoft.extensions.filesystemglobbing/7.0.0/microsoft.extensions.filesystemglobbing.7.0.0.nupkg.sha512",
+    "/Users/kae/.nuget/packages/microsoft.extensions.http/7.0.0/microsoft.extensions.http.7.0.0.nupkg.sha512",
     "/Users/kae/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "/Users/kae/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "/Users/kae/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
